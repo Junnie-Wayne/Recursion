@@ -16,8 +16,12 @@ int recursion(int x) {
 }
 
 int main() {
-
-    cout << "7! is " << recursion(7) << endl;
+    int number;
+    
+    cout << "Enter a number: " << endl;
+    cin >> number;
+    
+    cout << number << "! is " << recursion(number) << endl;
 
   return 0;
 }
